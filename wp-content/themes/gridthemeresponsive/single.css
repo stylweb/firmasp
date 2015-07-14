@@ -1,0 +1,70 @@
+#header, #menu_container
+{
+    display: none;
+}
+html
+{
+}
+#single-profile
+{
+    margin-top: 70px;
+}
+#single-header
+{
+      width: 100%;
+  text-align: center;
+  background-color: black;
+  margin-bottom: 40px;
+  position: fixed;
+  top: 0px;
+}
+#single-header li
+{
+      display: inline-block;
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}
+#single-header.hidden
+{
+    opacity: 0.5;
+}
+
+h2
+{
+    width: 100%;
+    text-align: center;
+    font-family: "ostrich";
+    font-size: 38px;
+    letter-spacing: 3px;
+    padding-top: 30px!important;
+}
+p
+{
+    font-family: "source";
+}
+body
+{
+    position: relative;
+}
+#home-logo
+{
+    position: fixed;
+    top: 40%;
+    right: 0;
+    width: 50px;
+    height: 180px;
+    background-image: url('images/firmasp.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    cursor: pointer;
+}
+#home-logo a
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
